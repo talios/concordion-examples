@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="2eae31bf-75e8-457d-836b-84b9ce7aae2d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/clojure/specifications/SomethingElse.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concordion-test.iws" afterPath="$PROJECT_DIR$/concordion-test.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/talios/BasicConcordionRunner.java" afterPath="$PROJECT_DIR$/src/test/java/com/talios/BasicConcordionRunner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/talios/EvalCommand.java" afterPath="$PROJECT_DIR$/src/test/java/com/talios/EvalCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/specifications/SomethingElse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concordion-test.iml" afterPath="$PROJECT_DIR$/concordion-test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concordion-test.ipr" afterPath="$PROJECT_DIR$/concordion-test.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/specifications/Specifications.html" afterPath="$PROJECT_DIR$/src/test/resources/specifications/Specifications.html" />
     </list>
-    <ignored path=".idea/workspace.xml" />
     <ignored path="concordion-test.iws" />
+    <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +27,34 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/talios/BasicConcordionRunner.java" line="16" class="com.talios.BasicConcordionRunner" package="com.talios">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/talios/InlineCommand.java" line="36" class="com.talios.InlineCommand" package="com.talios">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -67,19 +99,26 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="21" selection-start="1058" selection-end="1058" vertical-scroll-proportion="-15.0">
+            <state line="35" column="43" selection-start="1484" selection-end="1484" vertical-scroll-proportion="-17.666666">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/talios/AppTest.java">
+      <file leaf-file-name="SomethingElse.clj" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/clojure/specifications/SomethingElse.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="38" selection-start="1309" selection-end="1309" vertical-scroll-proportion="-3.9583333">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="4" column="31" selection-start="128" selection-end="128" vertical-scroll-proportion="0.1183432">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SomethingElse.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/specifications/SomethingElse.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="46" selection-start="244" selection-end="244" vertical-scroll-proportion="-2.142857">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,16 +126,16 @@
       <file leaf-file-name="Specifications.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/specifications/Specifications.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="6" selection-start="73" selection-end="125" vertical-scroll-proportion="-0.30612245">
+            <state line="17" column="88" selection-start="716" selection-end="716" vertical-scroll-proportion="-5.2040815">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SomeOther.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/specifications/SomeOther.html">
+      <file leaf-file-name="InlineCommand.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/talios/InlineCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="45" selection-start="383" selection-end="383" vertical-scroll-proportion="-3.0612245">
+            <state line="44" column="0" selection-start="1481" selection-end="1481" vertical-scroll-proportion="-7.0416665">
               <folding />
             </state>
           </provider>
@@ -105,30 +144,17 @@
       <file leaf-file-name="BasicConcordionRunner.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/talios/BasicConcordionRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="30" selection-start="387" selection-end="387" vertical-scroll-proportion="-6.25">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SomeOtherTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/specifications/SomeOtherTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="44" selection-start="295" selection-end="295" vertical-scroll-proportion="-7.5">
+            <state line="16" column="0" selection-start="532" selection-end="532" vertical-scroll-proportion="-7.0416665">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EvalCommand.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="EvalCommand.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/talios/EvalCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="21" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.40764332">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="53" column="108" selection-start="1824" selection-end="1824" vertical-scroll-proportion="-10.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -136,7 +162,7 @@
       <file leaf-file-name="Check.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/concordion/concordion/1.3.1/concordion-1.3.1-sources.jar!/org/concordion/internal/util/Check.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="23" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+            <state line="16" column="0" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -171,14 +197,18 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/talios/InlineCommand.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/specifications/SomeOtherTest.html" />
         <option value="$PROJECT_DIR$/src/test/java/com/talios/AppTest.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/specifications/Specifications.html" />
         <option value="$PROJECT_DIR$/src/test/java/specifications/SomeOtherTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/specifications/SomeOther.html" />
         <option value="$PROJECT_DIR$/src/test/java/com/talios/BasicConcordionRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/talios/EvalCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/clojure/specification/SomethingElse.clj" />
+        <option value="$PROJECT_DIR$/src/main/clojure/specifications/SomethingElse.clj" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/specifications/Specifications.html" />
+        <option value="$PROJECT_DIR$/src/test/resources/specifications/SomethingElse.html" />
+        <option value="$PROJECT_DIR$/src/test/clojure/specifications/SomethingElse.clj" />
       </list>
     </option>
   </component>
@@ -217,9 +247,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Favorites" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -330,6 +360,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clojure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="specifications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concordion-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concordion-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -361,10 +417,13 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/specifications" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.AppTest">
+  <component name="RunManager" selected="Remote.Unnamed">
     <configuration default="false" name="AppTest" type="TestNG" factoryName="TestNG" temporary="true">
-      <extension name="coverage" enabled="false" merge="false">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.talios.*" />
           <option name="ENABLED" value="true" />
@@ -373,17 +432,17 @@
       <extension name="snapshooter" />
       <module name="concordion-test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.talios" />
       <option name="MAIN_CLASS_NAME" value="com.talios.AppTest" />
       <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -391,7 +450,7 @@
         <value defaultName="moduleWithDependencies" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
+      <option name="PROPERTIES_FILE" value="" />
       <envs />
       <properties />
       <listeners />
@@ -516,8 +575,23 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.AppTest" />
+    <configuration default="false" name="Unnamed" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5005" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Remote.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.AppTest" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -545,25 +619,25 @@
     <frame x="58" y="36" width="1569" height="932" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32338902" sideWeight="0.9980263" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32816228" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24786325" sideWeight="0.6682578" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24736843" sideWeight="0.6690562" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32258064" sideWeight="0.9980263" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293556" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32816228" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -637,102 +711,100 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/talios/InlineCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="21" selection-start="1058" selection-end="1058" vertical-scroll-proportion="-15.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/concordion/concordion/1.3.1/concordion-1.3.1.jar!/org/concordion/api/Element.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="28" selection-start="1577" selection-end="1577" vertical-scroll-proportion="0.31826743">
-          <folding />
-        </state>
+        <state line="36" column="28" selection-start="1577" selection-end="1577" vertical-scroll-proportion="0.31826743" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/xom/xom/1.1/xom-1.1.jar!/nu/xom/Element.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="34" selection-start="2511" selection-end="2511" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
+        <state line="55" column="34" selection-start="2511" selection-end="2511" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/specifications/Specifications.html">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/talios/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="6" selection-start="73" selection-end="125" vertical-scroll-proportion="-0.30612245">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/xom/xom/1.1/xom-1.1-sources.jar!/nu/xom/Text.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="11" selection-start="2922" selection-end="2922" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/concordion/concordion/1.3.1/concordion-1.3.1-sources.jar!/org/concordion/api/Element.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="43" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/concordion/concordion/1.3.1/concordion-1.3.1-sources.jar!/org/concordion/internal/util/Check.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="23" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/specifications/SomeOtherTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="44" selection-start="295" selection-end="295" vertical-scroll-proportion="-7.5">
+        <state line="36" column="38" selection-start="1309" selection-end="1309" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/specifications/SomeOther.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="45" selection-start="383" selection-end="383" vertical-scroll-proportion="-3.0612245">
+        <state line="10" column="45" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/talios/AppTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/specifications/SomeOtherTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="38" selection-start="1309" selection-end="1309" vertical-scroll-proportion="-3.9583333">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="12" column="44" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/concordion/concordion/1.3.1/concordion-1.3.1-sources.jar!/org/concordion/api/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="43" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/xom/xom/1.1/xom-1.1-sources.jar!/nu/xom/Text.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="11" selection-start="2922" selection-end="2922" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/talios/BasicConcordionRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="30" selection-start="387" selection-end="387" vertical-scroll-proportion="-6.25">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="16" column="0" selection-start="532" selection-end="532" vertical-scroll-proportion="-7.0416665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/concordion/concordion/1.3.1/concordion-1.3.1-sources.jar!/org/concordion/internal/util/Check.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/talios/EvalCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="21" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.40764332">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="53" column="108" selection-start="1824" selection-end="1824" vertical-scroll-proportion="-10.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/talios/InlineCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1481" selection-end="1481" vertical-scroll-proportion="-7.0416665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/specifications/Specifications.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="88" selection-start="716" selection-end="716" vertical-scroll-proportion="-5.2040815">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="43" selection-start="1484" selection-end="1484" vertical-scroll-proportion="-17.666666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/specifications/SomethingElse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="46" selection-start="244" selection-end="244" vertical-scroll-proportion="-2.142857">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/clojure/specifications/SomethingElse.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="31" selection-start="128" selection-end="128" vertical-scroll-proportion="0.1183432">
+          <folding />
         </state>
       </provider>
     </entry>
