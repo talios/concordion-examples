@@ -1,9 +1,18 @@
 <html xmlns:concordion="http://www.concordion.org/2007/concordion"
-      xmlns:talios="http://www.talios/2010/concordion">
+      xmlns:talios="http://www.talios.com/2010/concordion">
 <head>Specifications</head>
 <body>
+
+<p>
+    This is an example concordion specification.
+</p>
+
 <ul>
-    <li><a concordion:link="SomeOtherTest.html"></a></li>
+    <li><p>Other specifications can be inlined into the current document using a custom "inline" command:</p>
+        <div talios:inline="concordion" href="SomeOther.html"></div></li>
+    <li>
+        <span>...or more traditionally just as a link to </span>
+        <a concordion:link="concordion" href="SomeOther.html">some other thing</a></li>
 </ul>
 </body>
 </html>

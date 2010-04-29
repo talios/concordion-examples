@@ -7,13 +7,18 @@ public class BasicConcordionRunner implements Runner {
 
     public RunnerResult execute(Resource resource, String href) throws Exception {
 
+        Result result = Result.SUCCESS;
         Resource hrefResource = resource.getParent().getRelativeResource(href);
         String name = hrefResource.getPath().replaceFirst("/", "").replace("/", ".").replaceAll("\\.html$", "");
         Class<?> concordionClass;
         try {
             concordionClass = Class.forName(name);
         } catch (ClassNotFoundException e) {
-            concordionClass = Class.forName(name + "Test");
+            try {
+                concordionClass = Class.forName(name + "Test");
+            }catch (ClassNotFoundException e2) {
+                return new RunnerResult(Result.FAILURE);
+            }
         }
 
         ResultSummary resultSummary = new ConcordionBuilder()
@@ -22,7 +27,6 @@ public class BasicConcordionRunner implements Runner {
                 .build()
                 .process(hrefResource, concordionClass.newInstance());
 
-        Result result = Result.SUCCESS;
         if (resultSummary.getFailureCount() > 0) {
             result = Result.FAILURE;
         }
