@@ -57,7 +57,8 @@ public class EvalCommand extends AbstractCommand {
 
         } catch (Exception e) {
             Element evalTitle = extractTitle(evalString);
-
+            element.moveChildrenTo(new Element("null"));
+            element.appendChild(evalTitle);
             element.addStyleClass("failure");
             throw new RuntimeException(e);
         }

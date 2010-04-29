@@ -3,6 +3,13 @@ package com.talios;
 import org.concordion.api.*;
 import org.concordion.internal.ConcordionBuilder;
 
+/**
+ * The BasicConcordionRunner simply runs concordion without any JUnit dependencies, it also adds in our custom
+ * commands to the system.
+ *
+ * By setting the system property concordion.runner.concordion - concordion's link command will use our runner
+ * instead of the default one.
+ */
 public class BasicConcordionRunner implements Runner {
 
     public RunnerResult execute(Resource resource, String href) throws Exception {

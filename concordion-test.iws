@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="2eae31bf-75e8-457d-836b-84b9ce7aae2d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/specifications/SomeOther.html" afterPath="$PROJECT_DIR$/src/test/resources/specifications/SomeOther.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concordion-test.iws" afterPath="$PROJECT_DIR$/concordion-test.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/talios/BasicConcordionRunner.java" afterPath="$PROJECT_DIR$/src/test/java/com/talios/BasicConcordionRunner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/talios/EvalCommand.java" afterPath="$PROJECT_DIR$/src/test/java/com/talios/EvalCommand.java" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="concordion-test.iws" />
@@ -75,7 +76,7 @@
       <file leaf-file-name="AppTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/talios/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="1628" selection-end="1628" vertical-scroll-proportion="-6.25">
+            <state line="36" column="38" selection-start="1309" selection-end="1309" vertical-scroll-proportion="-3.9583333">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,10 +93,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SomeOther.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SomeOther.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/specifications/SomeOther.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="45" selection-start="383" selection-end="383" vertical-scroll-proportion="0.19736843">
+            <state line="10" column="45" selection-start="383" selection-end="383" vertical-scroll-proportion="-3.0612245">
               <folding />
             </state>
           </provider>
@@ -104,7 +105,7 @@
       <file leaf-file-name="BasicConcordionRunner.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/talios/BasicConcordionRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="241" selection-end="241" vertical-scroll-proportion="-5.625">
+            <state line="10" column="30" selection-start="387" selection-end="387" vertical-scroll-proportion="-6.25">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,10 +122,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EvalCommand.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="EvalCommand.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/talios/EvalCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="24" selection-start="1946" selection-end="1946" vertical-scroll-proportion="-25.833334">
+            <state line="60" column="52" selection-start="2080" selection-end="2080" vertical-scroll-proportion="0.82802546">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,12 +173,12 @@
         <option value="$PROJECT_DIR$/src/test/java/com/talios/InlineCommand.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/specifications/SomeOtherTest.html" />
-        <option value="$PROJECT_DIR$/src/test/java/com/talios/BasicConcordionRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/talios/AppTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/specifications/Specifications.html" />
         <option value="$PROJECT_DIR$/src/test/java/specifications/SomeOtherTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/talios/EvalCommand.java" />
         <option value="$PROJECT_DIR$/src/test/resources/specifications/SomeOther.html" />
+        <option value="$PROJECT_DIR$/src/test/java/com/talios/BasicConcordionRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/talios/EvalCommand.java" />
       </list>
     </option>
   </component>
@@ -666,15 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/talios/BasicConcordionRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="241" selection-end="241" vertical-scroll-proportion="-5.625">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/specifications/Specifications.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="6" selection-start="73" selection-end="125" vertical-scroll-proportion="-0.30612245">
@@ -696,15 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/talios/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1628" selection-end="1628" vertical-scroll-proportion="-6.25">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/concordion/concordion/1.3.1/concordion-1.3.1-sources.jar!/org/concordion/internal/util/Check.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="23" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
@@ -719,19 +702,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/talios/EvalCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/specifications/SomeOther.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="24" selection-start="1946" selection-end="1946" vertical-scroll-proportion="-25.833334">
+        <state line="10" column="45" selection-start="383" selection-end="383" vertical-scroll-proportion="-3.0612245">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/talios/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="38" selection-start="1309" selection-end="1309" vertical-scroll-proportion="-3.9583333">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/specifications/SomeOther.html">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/talios/BasicConcordionRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="45" selection-start="383" selection-end="383" vertical-scroll-proportion="0.19736843">
-          <folding />
+        <state line="10" column="30" selection-start="387" selection-end="387" vertical-scroll-proportion="-6.25">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/talios/EvalCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="52" selection-start="2080" selection-end="2080" vertical-scroll-proportion="0.82802546">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
