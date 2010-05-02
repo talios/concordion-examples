@@ -21,4 +21,9 @@ public class SomeOtherTest {
         return "Hello Again!";
     }
 
+    public String login(String username, String password) {
+	    return "Welcome";
+	}
+
+
 }

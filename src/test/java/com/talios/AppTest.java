@@ -38,6 +38,7 @@ public class AppTest {
         ResultSummary resultSummary = new ConcordionBuilder()
                 .withCommand(NAMESPACE_TALIOS, "inline", new InlineCommand())
                 .withCommand(NAMESPACE_TALIOS, "eval", new EvalCommand())
+                .withCommand(AppTest.NAMESPACE_TALIOS, "screenshot", new ScreenshotCommand())
                 .build()
                 .process(new Resource("/" + info.getHtmlFilePath()), fixture);
 

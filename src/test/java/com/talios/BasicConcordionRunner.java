@@ -31,6 +31,7 @@ public class BasicConcordionRunner implements Runner {
         ResultSummary resultSummary = new ConcordionBuilder()
                 .withCommand(AppTest.NAMESPACE_TALIOS, "inline", new InlineCommand())
                 .withCommand(AppTest.NAMESPACE_TALIOS, "eval", new EvalCommand())
+                .withCommand(AppTest.NAMESPACE_TALIOS, "screenshot", new ScreenshotCommand())
                 .build()
                 .process(hrefResource, concordionClass.newInstance());
 

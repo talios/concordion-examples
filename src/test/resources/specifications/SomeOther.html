@@ -3,6 +3,11 @@
 <head>Some Other Test</head>
 <body>
 
+	<p class="info">
+		All tests are assumed to be run against username <b concordion:set="#username">username</b> and the password
+		    <b concordion:set="#password">password</b>.
+		</p>
+
 <p>This is another test.</p>
 <ul>
     <li><span talios:eval="Do something boring"></span></li>
@@ -17,6 +22,7 @@
             <p>Having just one cool thing happen isn't enough!</p>
         </div>
     </li>
+    <li><span concordion:assertEquals="login(#username, #password)">Thank you for logging in</span></li>
 </ul>
 
 </body>
